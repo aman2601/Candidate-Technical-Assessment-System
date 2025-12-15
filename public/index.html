@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tech Assessment Platform</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container" id="app">
+    <header>
+      <h1>Technical Assessment</h1>
+    </header>
+
+    <main>
+      <section id="language-section" class="card">
+        <h2>Select Languages</h2>
+        <div id="languages" class="languages"></div>
+        <div class="row">
+          <label>Number of Questions:
+            <input type="number" id="numQuestions" value="10" min="1" max="50">
+          </label>
+          <button id="startBtn">Start Test</button>
+        </div>
+        <div id="startError" class="error"></div>
+      </section>
+
+      <section id="quiz-section" class="card hidden">
+        <div class="quiz-header">
+          <div id="progress">Question <span id="current">1</span>/<span id="total">10</span></div>
+          <div id="timer">Time: <span id="time">60</span>s</div>
+        </div>
+        <div id="questionArea"></div>
+        <div class="row">
+          <button id="prevBtn">Previous</button>
+          <button id="nextBtn">Next</button>
+          <button id="submitBtn">Submit Test</button>
+        </div>
+      </section>
+
+      <section id="result-section" class="card hidden">
+        <h2>Result</h2>
+        <div id="result"></div>
+        <div id="uploadArea" class="hidden">
+          <h3>Upload Resume</h3>
+          <form id="uploadForm">
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+            <div class="row">
+              <button type="submit">Upload</button>
+            </div>
+          </form>
+          <div id="uploadMsg" class="info"></div>
+        </div>
+        <div id="tryAgain" class="info hidden">Score below threshold. Try again later.</div>
+      </section>
+    </main>
+
+    <footer>
+      <small>Simple technical assessment demo</small>
+    </footer>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

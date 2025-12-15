@@ -1,0 +1,26 @@
+{
+  "JavaScript": [
+    {"question":"What is typeof typeof 1?","options":["number","string","object","undefined"],"correctAnswer":1},
+    {"question":"Which method converts JSON text to an object?","options":["JSON.parse","JSON.stringify","JSON.toObject","JSON.convert"],"correctAnswer":0},
+    {"question":"What does === check?","options":["Equality of value","Equality of type","Equality of value and type","Reference equality only"],"correctAnswer":2},
+    {"question":"Which is a closure?","options":["Function and its lexical environment","Array method","Prototype chain","Event loop state"],"correctAnswer":0},
+    {"question":"Which loop is guaranteed to run at least once?","options":["for","while","do...while","map"],"correctAnswer":2},
+    {"question":"What is hoisting?","options":["Moving functions to top of scope","Moving variables to top of scope","Both functions and var declarations are processed before execution","A CSS concept"],"correctAnswer":2},
+    {"question":"Which is correct to create a promise?","options":["new Promise((res,rej)=>{})","Promise.create()","Promise()","createPromise()"],"correctAnswer":0},
+    {"question":"Which array method returns a new array?","options":["push","splice","slice","sort"],"correctAnswer":2},
+    {"question":"What does event.preventDefault() do?","options":["Stops event propagation","Prevents default action of the event","Stops JS execution","Removes event listener"],"correctAnswer":1},
+    {"question":"Which is NOT a primitive?","options":["string","number","object","boolean"],"correctAnswer":2}
+  ],
+  "Python": [
+    {"question":"List vs Tuple?","options":["Mutable vs Immutable","Same","None","Both Mutable"],"correctAnswer":0},
+    {"question":"What is a dict in Python?","options":["Ordered list","Key-value mapping","Tuple alias","Function"],"correctAnswer":1},
+    {"question":"How to define a function?","options":["function f():","def f():","fn f():","define f():"],"correctAnswer":1},
+    {"question":"Which method adds at end of list?","options":["append","add","push","insertAtEnd"],"correctAnswer":0},
+    {"question":"What does 'self' refer to in class methods?","options":["Class itself","Instance of class","Static variable","Module"],"correctAnswer":1},
+    {"question":"Which comprehension builds a list?","options":["{x for x in y}","[x for x in y]","(x for x in y)","<x for x in y>"],"correctAnswer":1},
+    {"question":"How to open a file for reading?","options":["open('file','r')","file.open('r')","read('file')","open('file','w')"],"correctAnswer":0},
+    {"question":"Which is used for exceptions?","options":["try/except","try/catch","catch/except","throw/catch"],"correctAnswer":0},
+    {"question":"Which is immutable?","options":["list","dict","set","tuple"],"correctAnswer":3},
+    {"question":"How to comment multiple lines?","options":["//","<!-- -->","'''...'''","##"],"correctAnswer":2}
+  ]
+}

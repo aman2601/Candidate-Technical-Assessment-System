@@ -1,0 +1,20 @@
+*{box-sizing:border-box;font-family:Helvetica,Arial,sans-serif}
+body{margin:0;background:#f4f6f8;color:#222}
+.container{max-width:900px;margin:24px auto;padding:16px}
+header,h2{margin:0 0 12px}
+.card{background:#fff;padding:16px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.08);margin-bottom:16px}
+.hidden{display:none}
+.languages{display:flex;flex-wrap:wrap;gap:8px}
+.lang{padding:8px 10px;border:1px solid #ddd;border-radius:6px;cursor:pointer}
+.lang input{margin-right:8px}
+.row{display:flex;gap:8px;align-items:center;margin-top:12px}
+button{padding:8px 12px;border:0;background:#2b6cb0;color:#fff;border-radius:6px;cursor:pointer}
+button:disabled{opacity:0.6}
+#questionArea{min-height:120px}
+.option{display:block;padding:8px;border:1px solid #eee;border-radius:6px;margin:6px 0;cursor:pointer}
+.option input{margin-right:8px}
+.error{color:#b00020;margin-top:8px}
+.info{color:#2b6cb0;margin-top:8px}
+.quiz-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+@media (max-width:600px){.row{flex-direction:column;align-items:stretch}}
+footer{margin-top:16px;text-align:center;color:#666}
